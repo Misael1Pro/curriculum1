@@ -1,0 +1,11 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh; /* Ajusta la altura de acuerdo a tus necesidades */
+}
+
+.caja {
+    border: 1px solid #000;
+    padding: 10px; /* Añade espaciado alrededor del contenido */
+}

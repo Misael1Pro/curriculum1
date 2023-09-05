@@ -1,0 +1,75 @@
+*{
+  margin: 5px;
+  padding: 0;
+  grid-template-columns: 10px;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor{
+    display: flex;
+  height: 100%;
+  
+}
+.redonda{
+  border-radius: 50%;
+}
+.columna-30{
+    grid-template-columns: 2fr;
+    background: mediumturquoise;
+    flex: 50%;
+    float: left;
+    box-sizing: border-box; 
+    padding: 10px;
+    
+    
+}
+.columna-70{
+  grid-template-columns: 1fr;
+    padding: 0px;
+    background: rgb(251, 240, 227);
+
+}
+
+.Personal{
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  color: black;
+}
+.caja1{
+  border: 1px solid #000;
+  padding: 10px;
+  background: mediumturquoise;
+}
+.educa{
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  color: black;
+
+  }
+  .caja{
+    border: 1px solid #000;
+    padding: 10px;
+    background: mediumturquoise;
+  }
+.experiencia {
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  color: black;
+
+  }
+  .caja2{
+    border: 1px solid #000;
+    padding: 10px;
+    background: mediumturquoise;
+  }
+  
